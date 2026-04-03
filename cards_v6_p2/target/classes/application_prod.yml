@@ -1,0 +1,17 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to AmandeaBank cards related Prod APIs "
+  contactDetails:
+    name: "Guy Menzel - Production Manager"
+    email: "guy7070@gamil.com"
+  onCallSupport:
+    - (999) 555-1234
+    - (999) 523-1345

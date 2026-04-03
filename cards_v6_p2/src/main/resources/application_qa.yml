@@ -1,0 +1,17 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+
+build:
+  version: "2.0"
+
+cards:
+  message: "Welcome to AmandeaBank cards related QA APIs "
+  contactDetails:
+    name: "Oren - QA Team Lead"
+    email: "oren7070@gamil.com"
+  onCallSupport:
+    - (777) 555-1234
+    - (777) 523-1345
