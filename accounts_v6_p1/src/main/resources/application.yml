@@ -1,0 +1,35 @@
+#spring.application.name=cards
+
+spring:
+  application:
+    name: accounts
+  datasource:
+    url: jdbc:mysql://localhost:3306/bankingSystem
+    username: root
+    password: Amandeep18+
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_prod.yml"
+
+  profiles:
+    active:
+      - "prod"
+
+server:
+  port: 9090
+
+build:
+  version: "1.0"
+
+
+accounts:
+  message: "Welcome to AmandeaBank accounts related local APIs "
+  contactDetails:
+    name: "Amandeep - Developer"
+    email: "Amandeep@amandeabank.com"
+  onCallSupport:
+      - (555) 555-1234
+      - (555) 523-1345

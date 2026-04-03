@@ -1,0 +1,17 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+
+accounts:
+  message: "Welcome to EazyBank accounts related QA APIs "
+  contactDetails:
+    name: "Sudeep - QA Lead"
+    email: "sudeep@amandeabank.com"
+  onCallSupport:
+    - (666) 255-9658
+    - (666) 255-8965

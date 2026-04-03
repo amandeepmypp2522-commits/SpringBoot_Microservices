@@ -1,0 +1,17 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+
+accounts:
+  message: "Welcome to EazyBank accounts related Producton APIs "
+  contactDetails:
+    name: "Noa - Prod Manager"
+    email: "Noa@amandeabank.com"
+  onCallSupport:
+    - (999) 222-1234
+    - (999) 222-1345
