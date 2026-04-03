@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+loans:
+  message: "Welcome to AmandeaBank accounts related QA APIs "
+  contactDetails:
+    name: "Ashwin - QA Team Lead"
+    email: "ashwin@amandeabank.com"
+  onCallSupport:
+    - (000) 555-1234
+    - (000) 523-1345
